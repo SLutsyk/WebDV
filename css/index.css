@@ -1,0 +1,29 @@
+h1, h2, p, div, a {
+    margin: 0;
+    padding: 0;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav ul {
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    padding: 18px;
+    list-style-type: none;
+    flex: 1;
+}
+
+header > nav > ul > li > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+header .banner img {
+    display: block;
+    width: 100%;
+}
